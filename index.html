@@ -8,7 +8,21 @@
     <link href="./src/output.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .companiesList {
+            animation: 10s infinite linear moveCompany;
+        }
 
+        @keyframes moveCompany {
+            0% {
+                top: 0;
+            }
+
+            100% {
+                top: -50%;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -314,7 +328,7 @@
     </section>
 
 
-    <section class="bg-[#1d1d1d]">
+    <section class="bg-[#1d1d1d] ">
         <div class="w-full max-w-[1080px] mx-auto pt-4 relative">
             <h2 class="font-mullish text-center text-2xl leading-[1.2] text-white font-bold">Explore Razorpay business
                 Banking</h2>
@@ -641,16 +655,22 @@
     </section>
 
     <section class="bg-[#f5f8fe] relative pt-30 pb-12 ">
-        <div class="w-full max-w-[1080px] relative mx-auto">
+        <div class="w-full max-w-[1080px] relative mx-auto flex flex-row">
             <div class="flex flex-col justify-center max-w-[calc(100%-500px)]">
-                <h2>join the 500000+business using Razorpay </h2>
-                <div></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corporis iure quod enim? Possimus
+                <h2 class="font-mullish font-bold text-2xl text-blue-950">join the 500000+business using Razorpay </h2>
+                <div class="w-6 h-1 bg-green-500  my-4 mb-10"></div>
+                <p class="opacity-80">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corporis iure quod
+                    enim? Possimus
                     aspernatur provident quae recusandae ipsum distinctio!</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p class="mt-7 opacity-80">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
             </div>
-            <div>
-                <img src="jionimg.PNG" alt="">
+            <div class="h-[500px] w-[500px] relative overflow-hidden">
+                <div style="background: linear-gradient(180deg, #f4f8ff, #fff0);"
+                    class="absolute w-full h-[150px] top-0 z-50"></div>
+                <img src="jionimg.PNG" alt="" width="500px" class="absolute h-auto object-cover companiesList">
+
+                <div style="background: linear-gradient(0deg, #f4f8ff, #fff0);"
+                    class="absolute w-full h-[150px] bottom-0"></div>
             </div>
         </div>
     </section>
