@@ -91,7 +91,7 @@
 
     <section class="relative bg-black">
 
-        <div class="w-full max-w-[1080px] flex flex-row justify-between items-center mx-auto">
+        <div class="w-full max-w-[1080px] flex flex-col  md:flex-row justify-between items-center mx-auto">
 
             <div class="space-y-8">
                 <h1 class="font-mullish font-bold text-[40px] leading-[1.2] text-white">Power your finance grow your
@@ -121,7 +121,11 @@
             alt="" width="233" height="167" class="absolute top-0 right-0 inline-block"> -->
 
         <div class="relative w-full max-w-[1080px] mx-auto pt-4">
-            <h2 class="font-mullish text-center text-2xl leading-[1.2] font-bold">Accept Payment with Razarpay Payment
+            <h2 class="font-mullish text-center text-2xl leading-[1.2] font-bold hidden md:block">Accept Payment with
+                Razarpay Payment
+                Suite </h2>
+            <h2 class="font-mullish text-center text-2xl leading-[1.2] font-bold  md:hidden">Explore
+                Razarpay Payment
                 Suite </h2>
             <div class="w-6 h-1 bg-green-300 mx-auto mt-4 mb-6"></div>
 
@@ -162,10 +166,10 @@
                         </li class="font-mullish flex items-center space-x-2">
                     </ul>
 
-                    <div class="flex flex-row items-center gap-[1rem]">
-                        <button class="bg-blue-300 text-white rounded-md font-mullish font-bold
+                    <div class="flex flex-col-reverse md:flex-row items-center gap-[1rem]">
+                        <button class="bg-blue-300 w-full md:w-fit text-white rounded-md font-mullish font-bold
                         hover:bg-blue-500 transition-all duration-200 py-3.75 px-2.5">Sign up now</button>
-                        <div class="flex items-center cursor-pointer group">
+                        <div class="flex self-start md:self-center cursor-pointer group">
                             <a href="#"
                                 class="font-mullish font-bold text-[#4a34f3] group-hover:text-blue-300 transition-all duration-200">know
                                 more</a>
@@ -173,10 +177,11 @@
                     </div>
                 </div>
 
-                <img src="bg image.png" alt="" class="max-w-[400px] ">
+                <img src="bg image.png" alt=""
+                    class="max-w-[600px] hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:block">
             </div>
 
-            <div class="w-full grid grid-cols-3 gap-4 mt-10">
+            <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
                 <div class="w-full min-h-[15rem] relative cursor-pointer">
                     <img src="https://images.unsplash.com/photo-1563906267088-b029e7101114?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="" class="absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200">
@@ -368,9 +373,9 @@
 
                         </ul>
 
-                        <div class="flex flex-row items-center gap-[1rem]">
+                        <div class="flex flex-col-reverse md:flex-row items-center gap-[1rem]">
                             <button
-                                class="bg-blue-300 text-white w-[150px] rounded-md font-mullish font-bold hover:bg-blue-500 transition-all duration-200 py-3.75 px-2.5">Sign
+                                class="bg-blue-300 text-white w-[150px] rounded-md font-mullish font-bold hover:bg-blue-500 transition-all duration-200 py-3.75 px-2.5 self-stretch md:w-fit">Sign
                                 up
                                 <div class="w-8 h-[60px] bg-green-300 absolute left-33 bottom-6 skew-x-[20deg] "></div>
 
@@ -383,11 +388,12 @@
                         </div>
                     </div>
 
-                    <img src="bg image.png" alt="" class="max-w-[400px] ">
+                    <img src="bg image.png" alt=""
+                        class="max-w-[500px] hidden md:max-w-[250px] lg:max-w-[500px] md:block lg:block">
                 </div>
             </div>
 
-            <div class="grid grid-cols-3 gap-4 my-14">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-14">
                 <div class="w-full min-h-[15rem] relative cursor-pointer ">
                     <img src="https://images.unsplash.com/photo-1563906267088-b029e7101114?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="" class="absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200">
@@ -462,8 +468,10 @@
             </div>
 
             <div
-                class="w-full flex flex-row items-center justify-between border border-gray-200 mb-24 gap-y-6 p-8 relative rounded-md">
-                <p class="font-mullish font-bold text-white leading-[1.2] text-xl">Check out the live deom to learn hoe
+                class="w-full  items-center justify-between border border-gray-200 mb-24 gap-y-6 p-8 relative rounded-md hidden md:flex  md:flex-col lg:flex-row  lg:flex">
+                <p class="font-mullish font-bold text-white leading-[1.2] text-xl ">
+                    Check
+                    out the live deom to learn hoe
                     Razorpay works.
                     <span class="font-bold">
                         No sign-Up required?
@@ -485,7 +493,7 @@
             <img src="" alt="">
             <img src="" alt="">
 
-            <div class="w-full grid grid-cols-3 gap-y-10 pag-x-4 relative z-[10]">
+            <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 pag-x-4 relative z-[10]">
                 <div class="relative flex items-center ">
                     <h2 class="text-blue-950 font-mullish font-extrabold text-4xl leading-[3.375rem]">
                         New in the
@@ -577,7 +585,7 @@
                 Similique accusantium asperiores sed sapiente
                 eos, ?</p>
 
-            <div class="grid grid-cols-4 gap-[4rem] mt-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[4rem] mt-8">
                 <div>
                     <img src="https://plus.unsplash.com/premium_photo-1677838848138-82699f276319?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="" class="absolute bottom-90 w-10 h-10 rounded-full z-[8] transition-all duration-200 ">
@@ -655,8 +663,8 @@
     </section>
 
     <section class="bg-[#f5f8fe] relative pt-30 pb-12 ">
-        <div class="w-full max-w-[1080px] relative mx-auto flex flex-row">
-            <div class="flex flex-col justify-center max-w-[calc(100%-500px)]">
+        <div class="w-full max-w-[1080px] relative mx-auto flex flex-col md:flex-row">
+            <div class="flex flex-col justify-center w-full md:max-w-[calc(100%-500px)]">
                 <h2 class="font-mullish font-bold text-2xl text-blue-950">join the 500000+business using Razorpay </h2>
                 <div class="w-6 h-1 bg-green-500  my-4 mb-10"></div>
                 <p class="opacity-80">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corporis iure quod
@@ -675,6 +683,63 @@
         </div>
     </section>
 
+    <section class="relative">
+        <div class="w-full max-w-[1300px] mx-auto relative py-20">
+
+
+            <h1 class="font-mullish font-bold text-2xl text-blue-950 text-center">An Experience
+                <br> People love to talk A bout
+            </h1>
+            <div class="w-6 h-1 bg-green-400 mx-auto my-4"></div>
+
+
+
+            <button
+                class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute left-0 top-1/2 flex justify-center items-center">
+                <div class="w-[65%] h-[65%] bg-[#dadbde] rounded-full flex justify-center items-center">
+                    <i class="fa-solid fa-angle-left stroke-[5px] w-6 h6 md:h-10 text-gray-400"></i>
+
+
+                </div>
+            </button>
+
+            <button
+                class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute right-0 top-1/2 flex justify-center items-center">
+                <div class="w-[65%] h-[65%] bg-[#dcdde1] rounded-full flex justify-center items-center">
+                    <i class="fa-solid fa-angle-right  stroke-[5px] w-6 h6 md:h-10 text-gray-400"></i>
+
+                </div>
+            </button>
+
+            <div class="flex flex-col xl:flex-row max-w-[960px] items-center mx-auto my-20 gap-22">
+                <img src="https://images.unsplash.com/photo-1531901599143-df5010ab9438?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="" width="320px" height="320px" class="rounded-xl">
+
+                <div class="max-w[400px]">
+
+                    <p class="font-mullish text-3xl font-extralight">Ready made closed Wallet
+                        <br> silution Foe quick
+                        Refounds
+                    </p>
+                    <a href="#" class="text-gray-400 italic underline">Learn More</a>
+                    <h3 class="font-mullish font-extrabold text-2xl ">Lorem Ipsum</h3>
+                    <p>CEO,XYZ Engineering Company</p>
+                </div>
+
+            </div>
+
+            <div class=" w-full  flex flex-row justify-center mx-auto space-x-2">
+                <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+                <div class="h-[10px] w-[10px] bg-blue-300 rounded-full"></div>
+                <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+                <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+                <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+                <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+
+            </div>
+        </div>
+
+    </section>
 
 </body>
 
